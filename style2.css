@@ -94,3 +94,26 @@ form{
   border-radius: 14px;
   padding: 12px;
 }
+.шапка{
+  background-color: rgb(31, 42, 55);
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.логотип{
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.навигация a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+.навигация a:hover {
+text-decoration: none;
+}
