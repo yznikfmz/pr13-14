@@ -7,8 +7,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
-  color: #f;
+  background-color: #e8f1ff;
+  color: rgb(31, 42, 55);;
   line-height: 1.6;
 }
 
@@ -21,7 +21,7 @@ body {
 
 /* Шапка */
 .шапка {
-  background-color: #0d1b2a;
+  background-color: rgb(31, 42, 55);
   color: white;
   padding: 15px 0;
   display: flex;
@@ -68,7 +68,7 @@ body {
 }
 
 .кнопка {
-  background-color: #0d1b2a;
+  background-color: rgb(31, 42, 55);;
   color: white;
   padding: 10px 25px;
   text-decoration: none;
@@ -86,7 +86,7 @@ body {
 }
 
 .секция h2 {
-  color: #0d1b2a;
+  color: rgb(31, 42, 55);;
   margin-bottom: 20px;
   font-size: 26px;
   text-align: center;
@@ -109,7 +109,7 @@ body {
 .причина h3 {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #0d1b2a;
+  color: rgb(31, 42, 55);;
 }
 
 
@@ -126,14 +126,14 @@ body {
 }
 
 .программа h3 {
-  color: #0d1b2a;
+  color: rgb(31, 42, 55);;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
 /* Подвал */
 .подвал {
-  background-color: #0d1b2a;
+  background-color: rgb(31, 42, 55);;
   color: white;
   text-align: center;
   padding: 20px 0;
