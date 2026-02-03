@@ -1,0 +1,141 @@
+/* Сброс */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f1ff;
+  color: rgb(31, 42, 55);;
+  line-height: 1.6;
+}
+
+/* Контейнер — фиксированная ширина для ПК */
+.контейнер {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Шапка */
+.шапка {
+  background-color: rgb(31, 42, 55);
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.логотип {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.навигация a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.навигация a:hover {
+  text-decoration: underline;
+}
+
+/* Баннер */
+.баннер {
+  background-color: #f59e0b;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  margin: 20px 0;
+}
+
+.баннер h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.баннер p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.кнопка {
+  background-color: rgb(31, 42, 55);;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Секция */
+.секция {
+  background: white;
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.секция h2 {
+  color: rgb(31, 42, 55);;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* Причины */
+.причины {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.причина {
+  width: 280px;
+  text-align: center;
+}
+
+
+
+.причина h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(31, 42, 55);;
+}
+
+
+
+/* Программы */
+.программы {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.программа {
+  width: 280px;
+}
+
+.программа h3 {
+  color: rgb(31, 42, 55);;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Подвал */
+.подвал {
+  background-color: rgb(31, 42, 55);;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
