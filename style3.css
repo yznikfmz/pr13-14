@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.шапка{
+    background-color: rgb(31,42,55);
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.логотип {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.навигация a{
+    color: white;   
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.навигация a:hover{
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+    color: #143a66;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+
+.contacts-row {
+    overflow: hidden;
+}
+.contacts-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-block {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    padding: 30px;
+    background: #e8f1ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-block:last-child {
+    margin-right: 0;
+}
+
+
+h2 {
+    color: #143a66;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-block p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.form-block input,
+.form-block textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-block button {
+    width: 100%;
+    padding: 12px;
+    background: #143a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-block button:hover {
+    background: #0056b3;
+}
+
+
